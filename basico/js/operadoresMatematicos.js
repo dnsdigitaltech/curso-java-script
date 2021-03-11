@@ -67,3 +67,40 @@ console.log(n2)//6
 // /=
 n2 /= 3
 console.log(n2)//4*/
+
+/******************** Operadores de Comparação  ****************** */
+//== igual a
+console.log(2 == 2)//true
+console.log(2 == 3)//false
+console.log('Davi' == 'Davi')//true
+console.log('Davi' == 'davi')//false
+
+console.log(2 == '2')//true //compara valor
+console.log(2 === '2')//false //alem de comparar valor, compara seu tipo
+
+//!= diferente de
+console.log(2 != 3)//false
+console.log(2 != 3)//true
+console.log(2 != '3')//true
+console.log(2 !== '2')//true
+console.log(2 !== 2)//false
+
+//> maior que
+console.log(2 > 3)//false
+console.log(3 > 2)//true
+
+//> menor que
+console.log(2 < 3)//true
+console.log(3 < 2)//false
+
+//>= maior que
+console.log(3 > 3)//false
+console.log(3 >= 3)//true
+console.log(3 >= 5)//false
+console.log(5 >= 3)//false
+
+//<= menor que
+console.log(2 < 2)//false
+console.log(2 <= 2)//true
+console.log(2 <= 4)//true
+console.log(4 <= 2)//false
