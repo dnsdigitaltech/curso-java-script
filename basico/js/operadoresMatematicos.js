@@ -27,6 +27,7 @@ console.log((6 - 2 + 2) / 2) //3
 console.log((6 - 2 + 2) / 2 + 2 * 3) //9
 console.log(((6 - 2 + 2) / 2 + 2) * 3) //15*/
 
+
 /******************** Operadores Aritméticos Incremento e Decremento  ****************** */
 console.log(n1++)//12
 console.log(n1)//13
