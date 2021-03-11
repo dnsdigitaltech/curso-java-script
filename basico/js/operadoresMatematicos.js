@@ -29,10 +29,16 @@ console.log(((6 - 2 + 2) / 2 + 2) * 3) //15*/
 
 
 /******************** Operadores Aritméticos Incremento e Decremento  ****************** */
-console.log(n1++)//12
+/*console.log(n1++)//12
 console.log(n1)//13
 console.log(++n1)//14
 
 console.log(n1--)//14
 console.log(n1)//13
-console.log(--n1)//12
+console.log(--n1)//12*/
+
+/******************** Operadores Aritméticos Resto da Divisão  ****************** */
+//muito usado para saber de o numero e impar ou par
+n3 = 13
+console.log(n1 % 2) //0
+console.log(n3 % 2) //1
