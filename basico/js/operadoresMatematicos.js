@@ -70,7 +70,7 @@ console.log(n2)//4*/
 
 /******************** Operadores de Comparação  ****************** */
 //== igual a
-console.log(2 == 2)//true
+/*console.log(2 == 2)//true
 console.log(2 == 3)//false
 console.log('Davi' == 'Davi')//true
 console.log('Davi' == 'davi')//false
@@ -103,4 +103,26 @@ console.log(5 >= 3)//false
 console.log(2 < 2)//false
 console.log(2 <= 2)//true
 console.log(2 <= 4)//true
-console.log(4 <= 2)//false
+console.log(4 <= 2)//false*/
+
+/******************** Operadores Lógicos  ****************** */
+//Operadores lógicos são muito combinados com os operadores de comparação
+//Exemplo se quiser comparar mais de uma coisa, utiliza os operado lógico para combinar esta comparação
+var n1 = 12;
+
+console.log(n1 == 12) //true
+console.log(typeof n1 == 'number') //true //retorna o tipo da variável neste caso é number
+console.log(typeof n1 == 'string') //false 
+//Operador && compara se os dois valores são verdadeiros
+console.log(typeof n1 == 'number' && n1 == 12) //true 
+console.log(typeof n1 == 'number' && n1 == 13) //false 
+console.log(typeof n1 == 'string' && n1 == 12) //false 
+console.log(typeof n1 == 'string' && n1 == 13) //false 
+//Operador || compara se um dos valores são verdadeiros
+console.log(typeof n1 == 'number' || n1 == 12) //true 
+console.log(typeof n1 == 'number' || n1 == 13) //true 
+console.log(typeof n1 == 'string' || n1 == 12) //true 
+console.log(typeof n1 == 'string' || n1 == 13) //false 
+//Operador ! nega a variavel se !true retorna false, se !false retona true
+console.log(!true) //false 
+console.log(!false) //true 
